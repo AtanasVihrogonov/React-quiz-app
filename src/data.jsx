@@ -21,4 +21,26 @@ export const data = [
       },
     ],
   },
+  {
+    id: 2,
+    question: 'What is JSX?',
+    answers: [
+      {
+        text: 'Java scripting package',
+        correct: false,
+      },
+      {
+        text: 'JavaScript XML',
+        correct: true,
+      },
+      {
+        text: 'Json Object Syntax',
+        correct: false,
+      },
+      {
+        text: 'Runtime debugging',
+        correct: false,
+      },
+    ],
+  },
 ];
