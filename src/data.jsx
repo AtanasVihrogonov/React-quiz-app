@@ -97,7 +97,7 @@ export const data = [
         correct: false,
       },
       {
-        text: '<h1>${fetch()}</h1>',
+        text: '<h1>{(fetch)}</h1>',
         correct: false,
       },
       {
@@ -105,7 +105,7 @@ export const data = [
         correct: true,
       },
       {
-        text: '<h1>${fetch}</h1>',
+        text: '<h1>{({fetch})}</h1>',
         correct: false,
       },
     ],
