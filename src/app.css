@@ -1,6 +1,7 @@
 .app {
   height: 100vh;
   display: flex;
+  flex-direction: row-reverse;
   background-color: #020230;
   color: #fff;
 }
@@ -186,4 +187,86 @@ h1 {
 }
 h2 {
   text-align: center;
+}
+
+.start {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.startInput {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.startInput:focus {
+  outline: none;
+}
+
+.startButton {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .app .pyramid .moneyList .moneyListItem .moneyListItemStar {
+    display: none;
+  }
+  .app .pyramid .moneyList {
+    padding: 5px;
+  }
+  .app .pyramid .moneyList .moneyListItem .moneyListItemAmount {
+    font-size: 1rem;
+  }
+  .app .pyramid .moneyList .moneyListItem .moneyListItemNumber {
+    font-size: 0.9rem;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+  }
+  .app .main .bottom .rich .question {
+    width: 95%;
+  }
+  .app .main .bottom .rich .answers {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .app .main .bottom .rich .answers .answer {
+    width: 100%;
+  }
+  .app .main .top .timer {
+    top: 160px;
+    bottom: 20px;
+    font-size: 22px;
+  }
+  .app {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 600px) {
+  .app .pyramid {
+    width: 220px;
+  }
+  .app .main .top {
+    height: 50%;
+  }
 }
