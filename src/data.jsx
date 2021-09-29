@@ -336,7 +336,7 @@ export const data = [
   },
   {
     id: 16,
-    question: ' Congratulations You Are Winner!',
+    question: ' Congrats! Every day, I want to be a winner. I want to train my best, I want to work my best.  K.L. Rahul',
     answers: [],
   },
 ];
