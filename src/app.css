@@ -30,6 +30,10 @@
   align-items: center;
   justify-content: space-around;
 }
+.rich .info {
+  color: #dfa44b;
+  font-weight: 100;
+}
 
 .question {
   width: 80%;

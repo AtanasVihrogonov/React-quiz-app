@@ -70,6 +70,7 @@ export default function Rich({
           </div>
         ))}
       </div>
+      <p className='info'>Select Only One Option!</p>
     </div>
   );
 }

@@ -291,7 +291,8 @@ export const data = [
   },
   {
     id: 14,
-    question: 'Q14. .....port is default where the webpack-dev-server will run.',
+    question:
+      'Q14. .....port is default where the webpack-dev-server will run.',
     answers: [
       {
         text: '3030',
