@@ -1,5 +1,5 @@
 # React Quiz App
-React.js "Who wants to be a millionaire" game app using react hooks.
+React.js game app using react hooks.
 
 ## Demo Website
 - 👉 Netlify : [https://react-quiz]()
