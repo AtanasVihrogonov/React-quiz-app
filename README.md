@@ -2,7 +2,7 @@
 React.js game app using react hooks.
 
 ## Demo Website
-- 👉 Netlify : [https://react-quiz]()
+- 👉 Netlify : [https://react-quiz](https://react-quiz-game-v1.netlify.app/)
 
 ### Technologies
 - JavaScript
