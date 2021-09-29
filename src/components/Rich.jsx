@@ -62,7 +62,7 @@ export default function Rich({
       <div className='question'>{question?.question}</div>
       <div className='answers'>
         {question?.answers.map((a) => (
-          <div
+          <div key={a.id}
             className={selectedAnswer === a ? className : 'answer'}
             onClick={() => handleClick(a)}
           >

@@ -1,4 +1,4 @@
-export const moneyPyramid = [
+export  const moneyPyramid = [
   { id: 1, amount: '£50' },
   { id: 2, amount: '£100' },
   { id: 3, amount: '£150' },

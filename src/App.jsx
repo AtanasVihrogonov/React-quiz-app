@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     questionNumber > 1 &&
       setEarned(moneyPyramid.find((m) => m.id === questionNumber - 1).amount);
-  }, [questionNumber, moneyPyramid]);
+  }, [questionNumber]);
 
   return (
     <div className='app'>
@@ -31,7 +31,7 @@ function App() {
                       ? 'moneyListItem active'
                       : 'moneyListItem'
                   }
-
+                  key={item.id}
                 >
                   <span className='moneyListItemNumber'>{item.id}</span>
                   <span className='moneyListItemStar'>
